@@ -1,0 +1,72 @@
+.cardDiv {
+    margin-top: -30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: stretch;
+    margin-bottom: 70px;
+}
+.card {
+    margin: 20px;
+    margin-top: 20px;
+    display:inline-block;
+    width: 22.5%;
+    max-width: 19.5em;
+    min-height: 25em;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1em;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    border: 1px solid rgba(0,168,255,.3);
+}
+.card:hover{
+    box-shadow: 0 5px 20px 0 gray;
+}
+.cardName{
+    font-weight: 500;
+    line-height: 2;
+    color: #0096ff;
+    margin-right: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.cardDate {
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.cardImg {
+    width: 100%;
+    height:90%;
+}
+.cardHd {
+    margin-top: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.14;
+    color: #000;
+    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.joiner {
+    display: inline-flex;
+    margin-top: -18px;
+    margin-left: 10px;
+}
+.desc {
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-style: normal;
+    color:  #B9BBB6;
+} 
